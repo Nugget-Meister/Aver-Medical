@@ -1,0 +1,15 @@
+
+[
+  {
+    "id": "avm_toolset",
+    "type": "TOOL",
+    "name": "AVM toolset",
+    "name_plural": "AVM toolsets",
+    "description": "Tt just do. It do good.",
+    "weight": 2200,
+    "volume": 2,
+    "price": 300000,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+  }
+]

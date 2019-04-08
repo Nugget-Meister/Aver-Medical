@@ -1,0 +1,87 @@
+Done
+  -=Nothing=- ¯\_(ツ)_/¯
+
+In progress
+
+  Tools               -----
+  Materials           -----
+
+
+Blueprinted
+
+  Armor               -----
+  Weapons             -----
+    Bladed Weapons
+    Firearms
+  Items
+  Materials
+
+  Item list
+    -> Fibre Skin Inlay (speed, dex,)
+    -> Chestplate
+    -> Trauma Resistant vest (def)
+    -> Trauma Resistant Gauntlet (def)
+    -> Motor Gloves (inlay +Dex)
+    -> Greaves
+    -> Mech Force Boots
+    -> Thrust Boosters
+    -> Power Helmet
+    -> Helmet Control Interface
+                -> G-Steel Sword (sword)
+                -> Rapid Assault Blade (katana)
+                    -> Zveihanda  (two handed, eviscerator, block, puncture)
+                    -> Veilhaus   (one handed, precise, rapid, parry, puncture)
+                    -> Aisohen    (one handed, rapid, sweep, parry,)
+                    -> Apollon    (one handed, blunt, hammer, rapid)
+                    -> Ikokke     (one handed, Blunt, rapid, parry)
+                    -> Kracken    (two handed, sweep, parry, hammer, spin,)
+        -> Toolset (all fine tools, base)
+        -> Buzzcutter (tree, wood, metal, fine saw)
+        -> Incisor (scalpel, knife)
+        -> Perforator (bolt driver, drill)
+        -> Excavator (dig, mining)
+            -> Matter Manipulator (all Tool mods)
+            -> Caloric Condenser (food capsule)
+            -> Photon Blaster (plasmid gun)
+            -> Energized Nervesuit (++Dex, +b+Speed, +Int)
+            -> Sensory Duller (No pain, -Speed, -Perception)
+    // -> Control unit  (small, medium, master)
+    // -> circuit plate (small, medium, large)
+    // -> avm plate     (wide, narrow, small)
+    // -> binding powder
+    // -> caustic solution
+    // -> programmable system mold
+    // -> calibration software
+        // "Avm Design Specifications"
+        // "Avm Operation Manual"
+
+Planned
+    Items
+      Comestibles
+
+
+        Classes
+        Locations
+        Spawn-lists
+        Enemies
+        Factions
+        Recipes
+
+    Factions
+      Primavera
+      Aver Medical
+      Inferni
+      Colossi
+      Apostate
+
+
+      New material
+        Akraic Solution
+        G-Steel
+
+      Creature Types
+        Gigants (Gigant Mas, Gigan)                     - Colossal towers
+        Codis (Codis Mejor, Codi Primus, Codiceptus)    - Long armed draconian creatures, winged.
+        Arnaux                                          - 4 armed 4 eyed tanned humans.
+        Eschari                                         - Slender, white skin, blackened hands
+        Eski                                            - Short,
