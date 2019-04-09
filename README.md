@@ -1,8 +1,9 @@
 # Aver-Medical
 > The discovery of pre-cataclysm documents that point to
-> the cultivation of optimal elements.
+> the cultivation of optimal subprime elements
 
-## Season 1: 
+
+## Season 1: Subprime Medical Practice
 
 Last PR: v0.0.0.0   8-Apr-19
 
@@ -24,7 +25,9 @@ I wouldn't really call it an expansion just yet. It might be your cup of tea. It
   * New Melee Weapons -> When knee deep in the dead, the only thing separating a survivor from their untimely (and inevitable) demise is their mind, and their tools. When that fails, best they start swinging.
   * New Ranged Weapons -> The AVM series of weaponry provides the common survivor with the means to further weaponize pneumatics, resulting in a far superior bolt driver, rivalling lesser plasmids and other conventional firearms.
   * New Comestibles -> While working on condensing metallic material, one scientist haed the bright idea of attempting to combine food items into a unified food source. Though he is most likely more longer with us, his research bore fruit in the form of the **calorie tablet**.
-  *  
+  * New Classes -> The Cataclysm sent the majority of AVM installations into disarray once the communications network went down. You may have been one of the people there for ground zero.
+  * New Enemies -> Many lives were lost during ground zero. Whether destroyed from within or from XE037, most officants took it upon themselves to make a living. A survivor may encounter them in their travels wandering about.
+  * New Factions -> Rumor has it that survivors of ground zero are still holed up in certain AVM facilities, forming a society around the technology that still works. Some believe that the research into XE037 should be used to take back the homelab
   
   
  *unfinished more to come.*
