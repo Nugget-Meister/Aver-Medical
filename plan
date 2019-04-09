@@ -49,6 +49,7 @@ Blueprinted
     // -> circuit plate (small, medium, large)
     // -> avm plate     (wide, narrow, small)
     // -> binding powder
+    // -> reactive powder
     // -> caustic solution
     // -> programmable system mold
     // -> calibration software
@@ -58,10 +59,18 @@ Blueprinted
 Planned
     Items
       Comestibles
-
+          Food capsule
+          ground up stimulants
+          Stimulant Boosters
 
         Classes
+          Research Technician
+          AVM Security Guard
         Locations
+          Research Facility
+          AVM Offices
+
+
         Spawn-lists
         Enemies
         Factions
