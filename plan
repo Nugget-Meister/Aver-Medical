@@ -27,7 +27,7 @@ Blueprinted
     -> Thrust Boosters
     -> Power Helmet
     -> Helmet Control Interface
-                -> G-Steel Sword (sword)
+                -> XE-Steel Sword (sword)
                 -> Rapid Assault Blade (katana)
                     -> Zveihanda  (two handed, eviscerator, block, puncture)
                     -> Veilhaus   (one handed, precise, rapid, parry, puncture)
@@ -69,6 +69,14 @@ Planned
         Locations
           Research Facility
           AVM Offices
+      Vehicles
+        Advanced Vehicles
+          AVM Roadster
+          Manual Turret Installation.
+          
+        Car mods
+          XE-Steel Grade Items
+          Vehicle Grade AVM Tools
 
 
         Spawn-lists
@@ -86,7 +94,7 @@ Planned
 
       New material
         Akraic Solution
-        G-Steel
+        XE-Steel
 
       Creature Types
         Gigants (Gigant Mas, Gigan)                     - Colossal towers
