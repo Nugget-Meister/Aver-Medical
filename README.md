@@ -16,7 +16,7 @@ I wouldn't really call it an expansion just yet. It might be your cup of tea. It
 
  * AVM Toolset -> Lightweight mid to lategame replacement for the toolbox and a viable substitute to the Integrated Toolset.
  * New Materials -> Future research into metal binding on the molecular level has resulted in the creation of XE-Steel, a tougher lightweight material to replace common metals.
- * New Fuel Type -> Serving as the fuel source for most AVM grade machinery is reactive powder, a high powered energy source utilizing the 
+ * New Fuel Type -> Serving as the fuel source for most AVM grade machinery is reactive powder, a high powered energy source utilizing the reconstructive and enhancing capability of XE037.
 
 ## Planned
 > We can only view the past as though we are looking forward.
