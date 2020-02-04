@@ -27,14 +27,14 @@ Blueprinted
     -> Thrust Boosters
     -> Power Helmet
     -> Helmet Control Interface
-                -> XE-Steel Sword (sword)
-                -> Rapid Assault Blade (katana)
-                    -> Zveihanda  (two handed, eviscerator, block, puncture)
-                    -> Veilhaus   (one handed, precise, rapid, parry, puncture)
-                    -> Aisohen    (one handed, rapid, sweep, parry,)
-                    -> Apollon    (one handed, blunt, hammer, rapid)
-                    -> Ikokke     (one handed, Blunt, rapid, parry)
-                    -> Kracken    (two handed, sweep, parry, hammer, spin,)
+              -> XE-Steel Sword (sword)
+              -> Rapid Assault Blade (katana)
+                  -> Zveihanda (greatsword)  (two handed, eviscerator, block, puncture)
+                  -> Veilhaus  (Spear)  (one handed, precise, rapid, parry, puncture)
+                  -> Aisohen   (staff)  (two handed, rapid, sweep, parry,)
+                  -> Apollon   (hammer)       (one handed, blunt, hammer, rapid)
+                  -> Ikokke    (baton)   (one handed, Blunt, rapid, parry)
+                  -> Kracken   (mace)   (two handed, sweep, parry, hammer, spin,)
         -> Toolset (all fine tools, base)
         -> Buzzcutter (tree, wood, metal, fine saw)
         -> Incisor (scalpel, knife)
@@ -43,7 +43,7 @@ Blueprinted
             -> Matter Manipulator (all Tool mods)
             -> Caloric Condenser (food capsule)
             -> Photon Blaster (plasmid gun)
-            -> Energized Nervesuit (++Dex, +b+Speed, +Int)
+            -> Energized Nervesuit (++Dex, ++Speed, +Int)
             -> Sensory Duller (No pain, -Speed, -Perception)
     // -> Control unit  (small, medium, master)
     // -> circuit plate (small, medium, large)
@@ -73,7 +73,7 @@ Planned
         Advanced Vehicles
           AVM Roadster
           Manual Turret Installation.
-          
+
         Car mods
           XE-Steel Grade Items
           Vehicle Grade AVM Tools

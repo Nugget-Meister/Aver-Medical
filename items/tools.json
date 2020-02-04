@@ -1,0 +1,54 @@
+
+[
+  {
+    "id": "avm_toolset",
+    "type": "TOOL",
+    "name": "AVM toolset",
+    "name_plural": "AVM toolsets",
+    "description": "Tt just do. It do good.",
+    "weight": 2200,
+    "volume": 2,
+    "price": 300000,
+    "bashing": 8,
+    "material": [ "plastic", "steel" ],
+    "symbol": ";",
+    "color": "cyan",
+    "qualities": [
+      [ "CUT", 1],
+      [ "HAMMER", 3 ],
+      [ "SAW_M", 3 ],
+      [ "SAW_W", 3 ],
+      [ "AXE", 2 ],
+      [ "WRENCH", 2 ],
+      [ "SCREW", 2 ],
+      [ "PRY", 3 ],
+      [ "HAMMER_FINE", 1 ],
+      [ "SAW_M_FINE", 1 ],
+      [ "WRENCH_FINE", 2 ],
+      [ "SCREW_FINE", 2 ],
+      [ "BUTCHER", 11 ],
+      [ "DRILL", 1]
+    ]
+  },
+  {
+    "id":"xesword",
+    "type":"TOOL",
+    "category": "weapons",
+    "name": "XE-Steel Sword",
+    "description": "A molded piece of sharpened XE-037 metallic structure made to resemble the modern equivalent of a broadsword. The rubberized grip prevents shock to the user. Due to its lightweight material, it suffers as a bashing weapon. But that's not what you're using it for now is it.",
+    "weight": 950,
+    "volume": 8,
+    "price": 150000,
+    "to_hit": 3,
+    "bashing": 5,
+    "cutting": 39,
+    "material": [ "xesteel", "plastic" ],
+    "symbol": "t",
+    "color": "grey",
+    "qualities": [ [ "CUT", 10 ], [ "AXE", 1 ], [ "PRY", 1 ] ],
+    "techniques": [ "WBLOCK_2", "SWEEP" ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE" ],
+  }
+
+
+]
