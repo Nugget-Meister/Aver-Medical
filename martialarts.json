@@ -1,0 +1,28 @@
+[
+  {
+   "id":"style_malpractice",
+   "type": "martial_art",
+   "name": "Gigant Arts",
+   "description": "For too long, the art of the Gigant remained beyond the realm of perception. Now, you practice as one of them.",
+   "initiate": [ "It begins.", "%s begins."],
+   "arm_block": 1,
+   "leg_block": 1,
+   "static buffs": [],
+
+
+ },
+  {
+   "id": "style_eskrima",
+   "copy-from": "style_eskrima",
+   "type": "martial_art",
+   "name": "Eskrima",
+   "extend": { "weapons": [ "xesword" ] }
+ },
+ {
+  "id": "style_biojutsu",
+  "copy-from": "style_biojutsu",
+  "type": "martial_art",
+  "name": "Bionic Combatives",
+  "extend": { "weapons": [ "xesword" ] }
+}
+]
