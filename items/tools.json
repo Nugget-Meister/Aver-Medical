@@ -7,7 +7,7 @@
     "name_plural": "AVM toolsets",
     "description": "Tt just do. It do good.",
     "weight": 2200,
-    "volume": 2,
+    "volume": 6,
     "price": 300000,
     "bashing": 8,
     "material": [ "plastic", "steel" ],
@@ -44,10 +44,10 @@
     "cutting": 39,
     "material": [ "xesteel", "plastic" ],
     "symbol": "t",
-    "color": "grey",
+    "color": "light_gray",
     "qualities": [ [ "CUT", 10 ], [ "AXE", 1 ], [ "PRY", 1 ] ],
     "techniques": [ "WBLOCK_2", "SWEEP" ],
-    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE" ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE" ]
   }
 
 
