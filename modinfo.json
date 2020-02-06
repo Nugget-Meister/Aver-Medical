@@ -6,6 +6,6 @@
     "authors": ["Nugget Meister"],
     "description": "Pre-cataclysm research that details the creation and use of blob reinforced material.",
     "category": "misc_additions",
-    "dependencies": [ "dda" ],
+    "dependencies": [ "dda" ]
   }
 ]

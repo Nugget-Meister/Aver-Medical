@@ -16,6 +16,6 @@
     "repaired_with": "scrap",
     "dmg_adj": [ "scratched", "bent", "damaged", "deformed" ],
     "bash_dmg_verb": "bent",
-    "cut_dmg_verb": "scratched",
+    "cut_dmg_verb": "scratched"
   }
 ]
