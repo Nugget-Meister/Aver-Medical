@@ -27,9 +27,11 @@ Blueprinted
     -> Thrust Boosters
     -> Power Helmet
     -> Helmet Control Interface
+
+    Weapons
               -> XE-Steel Sword (sword)
               -> Rapid Assault Blade (katana)
-                  -> Zveihanda (greatsword)  (two handed, eviscerator, block, puncture)
+                  -> Zvaihanda (greatsword)  (two handed, eviscerator, block, puncture)
                   -> Veilhaus  (Spear)  (one handed, precise, rapid, parry, puncture)
                   -> Aisohen   (staff)  (two handed, rapid, sweep, parry,)
                   -> Apollon   (hammer)       (one handed, blunt, hammer, rapid)
