@@ -4,7 +4,7 @@
    "type": "martial_art",
    "name": "Gigant Arts",
    "description": "For too long, the art of the Gigant remained beyond the realm of perception. Now, you practice as one of them.",
-   "initiate": [ "It begins.", "%s begins."],
+   "initiate": [ "It begins.", "%s gets into position."],
    "arm_block": 1,
    "leg_block": 1,
    "static buffs": [],
@@ -24,5 +24,19 @@
   "type": "martial_art",
   "name": "Bionic Combatives",
   "extend": { "weapons": [ "xesword" ] }
+},
+{
+ "id": "style_niten",
+ "copy-from": "style_niten",
+ "type": "martial_art",
+ "name": "Niten Ichi-Ryu",
+ "extend": { "weapons": [ "xesword" ] }
+},
+{
+ "id": "style_biojutsu",
+ "copy-from": "style_biojutsu",
+ "type": "martial_art",
+ "name": "Bionic Combatives",
+ "extend": { "weapons": [ "xesword" ] }
 }
 ]
