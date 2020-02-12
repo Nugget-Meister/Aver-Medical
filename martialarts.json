@@ -11,32 +11,99 @@
 
 
  },
+    {
+     "id": "style_eskrima",
+     "copy-from": "style_eskrima",
+     "type": "martial_art",
+     "name": "Eskrima",
+     "//": "small weapon, smack",
+     "extend": {
+       "weapons": [
+       "xesword"
+        ]
+      }
+   },
+   {
+    "id": "style_biojutsu",
+    "copy-from": "style_biojutsu",
+    "type": "martial_art",
+    "name": "Bionic Combatives",
+    "//": "small and big weapon",
+    "extend": {
+      "weapons": [
+      "xesword"
+       ]
+     }
+  },
   {
-   "id": "style_eskrima",
-   "copy-from": "style_eskrima",
+   "id": "style_niten",
+   "copy-from": "style_niten",
    "type": "martial_art",
-   "name": "Eskrima",
-   "extend": { "weapons": [ "xesword" ] }
+   "name": "Niten Ichi-Ryu",
+   "extend": {
+     "weapons": [
+     "xesword"
+      ]
+    }
+  },
+  {
+   "id": "style_biojutsu",
+   "copy-from": "style_biojutsu",
+   "type": "martial_art",
+   "name": "Bionic Combatives",
+   "//": "sword weapon, slash",
+   "extend": {
+     "weapons": [
+     "xesword"
+      ]
+    }
+  },
+  {
+   "id": "style_ninjutsu",
+   "copy-from": "style_ninjutsu",
+   "type": "martial_art",
+   "name": "Ninjutsu",
+   "//": "small weapon, slash",
+   "extend": {
+     "weapons": [
+     "xesword"
+      ]
+    }
  },
  {
-  "id": "style_biojutsu",
-  "copy-from": "style_biojutsu",
+  "id": "style_silat",
+  "copy-from": "style_silat",
   "type": "martial_art",
-  "name": "Bionic Combatives",
-  "extend": { "weapons": [ "xesword" ] }
+  "name": "Silat",
+  "//": "med weapon, slash",
+  "extend": {
+    "weapons": [
+    "xesword"
+     ]
+   }
 },
 {
- "id": "style_niten",
- "copy-from": "style_niten",
+ "id": "style_fencing",
+ "copy-from": "style_fencing",
  "type": "martial_art",
- "name": "Niten Ichi-Ryu",
- "extend": { "weapons": [ "xesword" ] }
+ "name": "Fencing",
+ "//": "thin weapon, slash",
+ "extend": {
+   "weapons": [
+   "xesword"
+    ]
+  }
 },
 {
- "id": "style_biojutsu",
- "copy-from": "style_biojutsu",
+ "id": "style_sojutsu",
+ "copy-from": "style_sojutsu",
  "type": "martial_art",
- "name": "Bionic Combatives",
- "extend": { "weapons": [ "xesword" ] }
-}
+ "name": "Sōjutsu",
+ "//": "stab weapon, spear",
+ "extend": {
+   "weapons": [
+   "xesword"
+    ]
+  }
+ }
 ]
