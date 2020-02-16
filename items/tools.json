@@ -31,7 +31,7 @@
     ]
   },
   {
-    "id": "xesword",
+    "id": "avm_sword",
     "type": "TOOL",
     "category": "weapons",
     "name": "XE-Steel Sword",
@@ -50,7 +50,7 @@
     "flags": [ "DURABLE_MELEE", "SHEATH_SWORD", "NONCONDUCTIVE" ]
   },
   {
-    "id": "assaultblade",
+    "id": "avm_blade",
     "type": "TOOL",
     "name": "Rapid Assault Blade" ,
     "category": "weapons",
@@ -73,7 +73,7 @@
     "type": "TOOL",
     "name": "Zvaihanda" ,
     "category": "weapons",
-    "description": "zweihander but chunky",
+    "description": "zweihander but chunky, and light",
     "weight": 1814,
     "volume": 12,
     "price": 150000,
