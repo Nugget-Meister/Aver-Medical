@@ -7,7 +7,7 @@
 
 Last PR: v0.0.0.0   8-Apr-19
 
-This is more or less a brain dump of ideas that I wanted to put into endgame just because why not.
+This is more or less a brain dump of ideas that I wanted to put into endgame just because why not. More or less just using this as a way to touch base on whatever mechanic I find handy atm.
 
 I wouldn't really call it an expansion just yet. It might be your cup of tea. It might not. Can't please everyone.
 
