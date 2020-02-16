@@ -103,7 +103,7 @@
     "symbol": "I",
     "color": "light_gray",
     "qualities": [ [ "COOK", 1 ], [ "PRY", 2 ] ],
-    "techniques": [ "IMPALE", "SPIN", "RAPID", "WBLOCK_2" ],
+    "techniques": [ "IMPALE", "PRECISE", "RAPID", "WBLOCK_2" ],
     "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_SPEAR", "REACH_ATTACK", "SPEAR" ]
   },
   {
