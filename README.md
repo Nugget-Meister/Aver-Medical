@@ -5,7 +5,7 @@
 
 ## Season 1: Subprime Medical Practice
 
-Last PR: v0.0.0.0   8-Apr-19
+Last PR: v0.0.1.30   8-Apr-19
 
 This is more or less a brain dump of ideas that I wanted to put into endgame just because why not. More or less just using this as a way to touch base on whatever mechanic I find handy atm.
 
