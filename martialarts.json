@@ -7,7 +7,34 @@
    "initiate": [ "It begins.", "%s gets into position."],
    "arm_block": 1,
    "leg_block": 1,
-   "static buffs": [],
+   "static buffs": [
+     {
+       "id": "gigant_static",
+       "name": "Stance Gigantus",
+       "description": "The world approaches, you stand ready to intercept.",
+       "unarmed_allowed": true,
+       "bonus_blocks": 2
+     },
+     {
+       "id": "gigant_dodge",
+       "name": "Essence of Nothingness",
+       "description": "",
+       "min_unarmed": 5,
+       "min_melee": 7
+     }
+   ],
+   "onmove_buffs": [],
+   "techniques": [ "WBLOCK_1", "WBLOCK_2", "DEF_DISARM", "GRAB", "SPIN", "WIDE", "IMPALE", "BRUTAL", "RAPID", "SWEEP", "PRECISE" ],
+   "weapons":[
+     "avm_sword",
+     "avm_blade",
+     "avm_greatsword",
+     "avm_spear",
+     "avm_staff",
+     "avm_hammer",
+     "avm_baton",
+     "avm_mace"
+   ],
 
 
  },
@@ -19,7 +46,8 @@
      "//": "small weapon, smack",
      "extend": {
        "weapons": [
-       "xesword"
+       "avm_baton",
+       "avm_blade",
         ]
       }
    },
@@ -31,7 +59,9 @@
     "//": "small and big weapon",
     "extend": {
       "weapons": [
-      "xesword"
+      "avm_sword",
+      "avm_staff",
+      "avm_baton"
        ]
      }
   },
@@ -42,7 +72,9 @@
    "name": "Niten Ichi-Ryu",
    "extend": {
      "weapons": [
-     "xesword"
+     "avm_sword",
+     "avm_blade",
+     "avm_greatsword"
       ]
     }
   },
@@ -54,22 +86,12 @@
    "//": "sword weapon, slash",
    "extend": {
      "weapons": [
-     "xesword"
+     "avm_sword",
+     "avm_blade",
+     "avm_baton"
       ]
     }
   },
-  {
-   "id": "style_ninjutsu",
-   "copy-from": "style_ninjutsu",
-   "type": "martial_art",
-   "name": "Ninjutsu",
-   "//": "small weapon, slash",
-   "extend": {
-     "weapons": [
-     "xesword"
-      ]
-    }
- },
  {
   "id": "style_silat",
   "copy-from": "style_silat",
@@ -78,7 +100,10 @@
   "//": "med weapon, slash",
   "extend": {
     "weapons": [
-    "xesword"
+    "avm_sword",
+    "avm_baton",
+    "avm_staff",
+    "avm_blade"
      ]
    }
 },
@@ -90,7 +115,8 @@
  "//": "thin weapon, slash",
  "extend": {
    "weapons": [
-   "xesword"
+   "avm_spear",
+   "avm_staff"
     ]
   }
 },
@@ -102,7 +128,8 @@
  "//": "stab weapon, spear",
  "extend": {
    "weapons": [
-   "xesword"
+   "avm_spear",
+   "avm_staff"
     ]
   }
  }
