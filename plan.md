@@ -192,9 +192,10 @@
 
 <details>
   <summary> Advanced Tools</summary><blockquote>
-  Matter Manipulator
-  <br>  `everything`
-  <br>  "*An object fabled to be able to perform any task required of it.*"
+  
+  <br>Matter Manipulator 
+  <br>`everything`
+  <br>"*An object fabled to be able to perform any task required of it.*"
 
   <br><br>  AVM Toolset
   <br>  `toolset`
