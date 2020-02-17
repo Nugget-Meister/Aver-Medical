@@ -1,11 +1,13 @@
 [
   {
     "type": "technique",
-    "id": "",
-    "name": "",
+    "id": "tec_test",
+    "name": "test move",
     "min_unarmed": 0,
+    "min_melee": 0,
     "unarmed_allowed": true,
-    ""
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"],
   }
 
 ]
