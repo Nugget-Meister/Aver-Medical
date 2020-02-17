@@ -4,12 +4,64 @@
 
 ## In progress
 
-  ### Martial arts
-  ##### _Gigant Arts_
-  > _Practice the way of the gods._
+### Martial arts
+##### _Gigant Arts_
+<blockquote><i>Practice the way of the gods.</i>
 
-  ##### _Volition_
+
+  <details>
+      <summary>Techniques</summary>
+
+  Trip
+  Shove
+  Redirect Blows
+
+  Brutalizing Strike
+  Counter Strike
+  Dodge Kick
+
+  Direct Shot
+  Floor Evisceration
+  Flurry of Punches
+
+  Warp Strike
+
+
+  </details>
+
+  <details>
+    <summary>Static Buffs</summary>
+
+    `stance` `melee 0`
+    Gigantus - The world comes at you from every angle. You stand ready to intercept.
+
+    `stance` `melee 5`
+    Kaes - You make yourself scarce as enemies approach, their attacks whiffing wind.
+
+  </details>
+
+  <details>
+    <summary>Action Buffs</summary>
+        `on hit`
+        Ether Vais - Each hit is a hammer, molding the situation to you.
+
+        `on move`
+        Gigant Flow - Reality weaves around you, attempting to nest you in its grand scheme. You refuse.
+
+        `on crit`
+        Atton - The enemy reels from your precise strikes, soon all will follow.
+
+        `on dodge`
+        Garguol - Your body moves with every attack, each strike guiding it into the most opportune position.
+
+
+
+    </details>
+</blockquote>
+
+##### _Volition_
   > _Survive off of the will to live._
+
 
 
 
