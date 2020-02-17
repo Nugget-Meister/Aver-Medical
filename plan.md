@@ -5,26 +5,26 @@
 ## In progress
 
 ### Martial arts
-##### _Gigant Arts_
+##### _Gigant Arts_ - Planned
 <blockquote><i>Practice the way of the gods.</i>
-
+<br><br>
 
   <details>
       <summary>Techniques</summary>
 
-  Trip
-  Shove
-  Redirect Blows
+    <br>Shove `melee 0`
+    <br>Trip `melee 2`
+    <br>Redirect Blows `melee 3`
 
-  Brutalizing Strike
-  Counter Strike
-  Dodge Kick
+    <br><br>Brutalizing Strike
+    <br>Counter Strike
+    <br>Dodge Kick
 
-  Direct Shot
-  Floor Evisceration
-  Flurry of Punches
+    <br><br>Direct Shot
+    <br>Floor Evisceration
+    <br>Flurry of Punches
 
-  Warp Strike
+    <br><br>Warp Strike
 
 
   </details>
@@ -32,34 +32,35 @@
   <details>
     <summary>Static Buffs</summary>
 
-    `stance` `melee 0`
-    Gigantus - The world comes at you from every angle. You stand ready to intercept.
+<br>Gigantus - `melee 0`
+<br> "*The world comes at you from every angle. You stand ready to intercept.*"
 
-    `stance` `melee 5`
-    Kaes - You make yourself scarce as enemies approach, their attacks whiffing wind.
+<br><br>Kaes - `melee 5`
+<br> "*You make yourself scarce as enemies approach, their attacks whiffing wind.*"
 
+<br><br>
   </details>
 
   <details>
     <summary>Action Buffs</summary>
-        `on hit`
-        Ether Vais - Each hit is a hammer, molding the situation to you.
+      <br>Ether Vais -`on hit`
+      <br>Each hit is a hammer, molding the situation to you.
 
-        `on move`
-        Gigant Flow - Reality weaves around you, attempting to nest you in its grand scheme. You refuse.
+      <br><br>Gigant Flow -`on move`
+      <br>Reality weaves around you, attempting to nest you in its grand scheme. You refuse.
 
-        `on crit`
-        Atton - The enemy reels from your precise strikes, soon all will follow.
+      <br><br>Atton - `on crit`
+      <br>The enemy reels from your precise strikes, soon all will follow.
 
-        `on dodge`
-        Garguol - Your body moves with every attack, each strike guiding it into the most opportune position.
+      <br><br>Garguol -`on dodge`
+      <br>Your body moves with every attack, each strike guiding it into the most opportune position.
 
 
 
     </details>
 </blockquote>
 
-##### _Volition_
+##### _Volition_ - Planned
   > _Survive off of the will to live._
 
 
@@ -71,137 +72,143 @@
  ###### Armor
 
  <details>
-   <summary> Armor </summary>
-  Fibre Skin Inlay
-  `torso` `legs` `arms` `skin-level`
-  "*Mobility and dexterity increase.*"
+   <summary> Armor </summary><blockquote>
+    Fibre Skin Inlay
+    <br>`torso` `legs` `arms` `skin-level`
+    <br>"*Mobility and dexterity increase.*"
 
-  Chestplate
-  `torso` `outer-level`
-  "*Increased blunt and cutting defense.*"
+    <br><br>Chestplate
+    <br>`torso` `outer-level`
+    <br>"*Increased blunt and cutting defense.*"
 
-  Trauma Resistant Vest
-  `torso` `arms` `normal-level`
-  Increased blunt defense, minor cut defense.
+    <br><br>Trauma Resistant Vest
+    <br>`torso` `arms` `normal-level`
+    <br>"*Increased blunt defense, minor cut defense.*"
 
-  `Trauma Resistant Gauntlet`
-  Increased blunt defense.
+    <br><br>Trauma Resistant Gauntlet
+    <br>`arms` `hands` `outer`
+    <br>Increased blunt defense.
 
-  `Trauma Resistant Greaves`
-  Greatly increased defense, penalty to speed
+    <br><br>Trauma Resistant Greaves
+    <br>`legs` `normal`
+    <br>"*Greatly increased defense, penalty to speed*"
 
-  `Motor Gloves`
-  Allows greater dexterity. Minor defense increase.
+    <br><br>`Motor Gloves`
+    <br>"*Allows greater dexterity. Minor defense increase.*"
 
+  <br><br></blockquote>
   </details>
 
   <details>
-    <summary> Advanced Equipment </summary>
+    <summary> Advanced Equipment </summary><blockquote>
     `Energized Nervesuit`
-    Greater increase to dexterity and speed. Minor increase to strength.
+    <br>Greater increase to dexterity and speed. Minor increase to strength.
 
-    `Mech Force Boots`
-    Greatly increased defense, penalty to dexterity. Increased speed.
+    <br><br>`Mech Force Boots`
+    <br>Greatly increased defense, penalty to dexterity. Increased speed.
 
-    `Thrust Boosters`
-    Increased speed and dexterity. Minor defense increase. Increase to strength.
+    <br><br>`Thrust Boosters`
+    <br>Increased speed and dexterity. Minor defense increase. Increase to strength.
 
-    `Power Helmet`
-    Major defense boost, protection from elements. Required for full power suit.
+    <br><br>`Power Helmet`
+    <br>Major defense boost, protection from elements. Required for full power suit.
 
-    `Helmet Control Interface`
-    Access to weather, *health values*, and time.
+    <br><br>`Helmet Control Interface`
+    <br>Access to weather, *health values*, and time.
+  <br><br></blockquote>
   </details>
 
  ###### Weapons
 
    <details>
-    <summary> Melee Weapons </summary>
+    <summary> Melee Weapons </summary><blockquote>
 
-      XE-Steel Sword
-      "*Hack, slash and sweep.*"
-      `sword`
+    XE-Steel Sword
+    <br>`sword`
+    <br>"*Hack, slash and sweep.*"
 
-     Rapid Assault Blade
-     "*Quick strikes.*"
-     `katana`
+    <br><br>Rapid Assault Blade
+    <br>`katana`
+    <br>"*Quick strikes.*"
 
-     Zvaihanda    
-     "*Two handed, eviscerator*".
-     `greatsword`
+    <br><br>Zvaihanda
+    <br>`greatsword`
+    <br>"*Two handed, eviscerator*".
 
-     Veilhaus
-     "*one handed, precise, rapid, puncture*"
-     `spear`
+    <br><br>Veilhaus
+    <br>`spear`
+    <br>"*One handed, precise, rapid, puncture*"
 
-    Aisohen   
-    "*Two handed, rapid, sweep, parry*"
-    `staff`  
+    <br><br>Aisohen
+    <br>`staff`
+    <br>"*Two handed, rapid, sweep, parry*"
 
-     Apollon    
-    "*one handed, blunt, hammer, rapid*"
-    `hammer`  
+    <br><br>Apollon
+    <br>`hammer`  
+    <br>"*One handed, blunt, hammer, rapid*"
 
-     Ikokke   
-    "*one handed, Blunt, rapid, parry*"
-    `baton`
+    <br>Ikokke
+    <br>`baton`
+    <br>"*One handed, Blunt, rapid, parry*"
 
-     Kracken   
-    "*two handed, sweep, hammer, spin*"
-    `mace`  
-
+    <br><br>Kracken
+    <br>`mace`
+    <br>"*Two handed, sweep, hammer, spin*"
+    <br><br></blockquote>
   </details>
 
   <details>
+    <summary> Ranged weaponry </summary><blockquote>
 
-    <summary> Ranged weaponry </summary>
     Perforator
-    `Bolt Driver` `Drilling`
-        "*A bolt driver with increased capacity and faster travel speed.*"
+    <br>`Bolt Driver` `Drilling`
+    <br>"*A bolt driver with increased capacity and faster travel speed.*"
 
-    Photon Blaster
-      `plasma gun`
-              "*A high powered energy weapon that converts inert material into superheated matter.*"
-
+    <br><br>Photon Blaster
+    <br>`plasma gun`
+    <br>"*A high powered energy weapon that converts inert material into superheated matter.*"
+    <br></blockquote>
   </details>
 
  ###### Tools
   <details>
 
-    <summary> Basic Tools</summary>
+    <summary> Basic Tools</summary><blockquote>
   Buzzcutter
-  `wood-cutting`, `wood-sawing`, `metal-cutting`, `metal-sawing`
-  "*A tool that utilized interchangeable blades to bridge the gap between metal and wood sawing.*"
+  <br> `wood-cutting`, `wood-sawing`, `metal-cutting`, `metal-sawing`
+  <br> "*A tool that utilized interchangeable blades to bridge the gap between metal and wood sawing.*"
 
-  Incisor
-  `scalpel`, `cutting`, `butchering`
-  "*A fine blade made from condensed xe-matter too small to be used for killing, but and excellent surgical tool.*"  
+  <br><br>Incisor
+  <br>  `scalpel`, `cutting`, `butchering`
+  <br>  "*A fine blade made from condensed xe-matter too small to be used for killing, but and excellent surgical tool.*"
 
-  Excavator
-  `digging`, `mining`
-  "*A drilling implementation that can be utilized for mining, ore as well as digging holes just as easily.*"
+  <br><br>  Excavator
+  <br>  `digging`, `mining`
+  <br>  "*A drilling implementation that can be utilized for mining, ore as well as digging holes just as easily.*"
 
+ <br><br></blockquote>
   </details>
 
 
 <details>
-  <summary> Advanced Tools</summary>
-    Matter Manipulator
-    `everything`
-    "*An object fabled to be able to perform any task required of it.*"
+  <summary> Advanced Tools</summary><blockquote>
+  Matter Manipulator
+  <br>  `everything`
+  <br>  "*An object fabled to be able to perform any task required of it.*"
 
-    AVM Toolset
-    `toolset`
-    "*A compact alternative to the standard craftsman's toolbox. The toolset sports a robust array of improved tools and then some. It does suffer weight-wise as a result*"
+  <br><br>  AVM Toolset
+  <br>  `toolset`
+  <br>  "*A compact alternative to the standard craftsman's toolbox. The toolset sports a robust array of improved tools and then some. It does suffer weight-wise as a result*"
 
-    Caloric Condenser
-    `food capsule`
+  <br><br>  Caloric Condenser
+  <br>  `food capsule`
+  <br> "*A metamorphed amalgamation of various foods allowing for the fast consumption of the daily value at the cost of vitamins and minerals.*"
 
-    Sensory Duller
-    `no-pain` `slow`
-    "*An attempt to create a combatant capable of fighting on produces the sensory duller. An object of fascination that deadens the users pain receptors. They become more sluggish and less aware as a result.*"
+  <br><br>  Sensory Duller
+  <br>  `no-pain` `slow`
+  <br>  "*An attempt to create a combatant capable of fighting uninhibited produces the sensory duller. An object of fascination that deadens the users pain receptors. They become more sluggish and less aware as a result.*"
 
-
+<br><br></blockquote>
 </details>
 
 
