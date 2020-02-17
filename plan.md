@@ -9,22 +9,20 @@
 <blockquote><i>Practice the way of the gods.</i>
 <br><br>
 
-  <details>
-      <summary>Techniques</summary>
+ <details>
+   <summary>Techniques</summary>
 
-    <br>Shove `melee 0`
-    <br>Trip `melee 2`
-    <br>Redirect Blows `melee 3`
+   <br>Shove `melee 0`
+   <br>Trip `melee 2`
+   <br>Redirect Blows `melee 3`
+   <br><br>Brutalizing Strike
+   <br>Counter Strike
+   <br>Dodge Kick
+   <br><br>Direct Shot
+   <br>Floor Evisceration
+   <br>Flurry of Punches
 
-    <br><br>Brutalizing Strike
-    <br>Counter Strike
-    <br>Dodge Kick
-
-    <br><br>Direct Shot
-    <br>Floor Evisceration
-    <br>Flurry of Punches
-
-    <br><br>Warp Strike
+   <br><br>Warp Strike
 
 
   </details>
@@ -42,22 +40,23 @@
   </details>
 
   <details>
-    <summary>Action Buffs</summary>
-      <br>Ether Vais -`on hit`
-      <br>Each hit is a hammer, molding the situation to you.
+   <summary>Action Buffs</summary>
+  
+   <br>Ether Vais -`on hit`
+   <br>Each hit is a hammer, molding the situation to you.
 
-      <br><br>Gigant Flow -`on move`
-      <br>Reality weaves around you, attempting to nest you in its grand scheme. You refuse.
+   <br>Gigant Flow - `on move`
+   <br>Reality weaves around you, attempting to nest you in its grand scheme. You refuse.
 
-      <br><br>Atton - `on crit`
-      <br>The enemy reels from your precise strikes, soon all will follow.
+   <br>Atton - `on crit`
+   <br>The enemy reels from your precise strikes, soon all will follow.
 
-      <br><br>Garguol -`on dodge`
-      <br>Your body moves with every attack, each strike guiding it into the most opportune position.
+   <br>Garguol -`on dodge`
+   <br>Your body moves with every attack, each strike guiding it into the most opportune position.
 
 
 
-    </details>
+   </details>
 </blockquote>
 
 ##### _Volition_ - Planned
@@ -73,48 +72,49 @@
 
  <details>
    <summary> Armor </summary><blockquote>
-    Fibre Skin Inlay
-    <br>`torso` `legs` `arms` `skin-level`
-    <br>"*Mobility and dexterity increase.*"
+  
+   Fibre Skin Inlay
+   <br>`torso` `legs` `arms` `skin-level`
+   <br>"*Mobility and dexterity increase.*"
 
-    <br><br>Chestplate
-    <br>`torso` `outer-level`
-    <br>"*Increased blunt and cutting defense.*"
+   <br><br>Chestplate
+   <br>`torso` `outer-level`
+   <br>"*Increased blunt and cutting defense.*"
 
-    <br><br>Trauma Resistant Vest
-    <br>`torso` `arms` `normal-level`
-    <br>"*Increased blunt defense, minor cut defense.*"
+   <br><br>Trauma Resistant Vest
+   <br>`torso` `arms` `normal-level`
+   <br>"*Increased blunt defense, minor cut defense.*"
 
-    <br><br>Trauma Resistant Gauntlet
-    <br>`arms` `hands` `outer`
-    <br>Increased blunt defense.
+   <br><br>Trauma Resistant Gauntlet
+   <br>`arms` `hands` `outer`
+   <br>Increased blunt defense.
 
-    <br><br>Trauma Resistant Greaves
-    <br>`legs` `normal`
-    <br>"*Greatly increased defense, penalty to speed*"
+   <br><br>Trauma Resistant Greaves
+   <br>`legs` `normal`
+   <br>"*Greatly increased defense, penalty to speed*"
 
-    <br><br>`Motor Gloves`
-    <br>"*Allows greater dexterity. Minor defense increase.*"
+   <br><br>`Motor Gloves`
+   <br>"*Allows greater dexterity. Minor defense increase.*"
 
   <br><br></blockquote>
   </details>
 
   <details>
-    <summary> Advanced Equipment </summary><blockquote>
-    `Energized Nervesuit`
-    <br>Greater increase to dexterity and speed. Minor increase to strength.
+   <summary> Advanced Equipment </summary><blockquote>
+   `Energized Nervesuit`
+   <br>Greater increase to dexterity and speed. Minor increase to strength.
 
-    <br><br>`Mech Force Boots`
-    <br>Greatly increased defense, penalty to dexterity. Increased speed.
+   <br><br>`Mech Force Boots`
+   <br>Greatly increased defense, penalty to dexterity. Increased speed.
 
-    <br><br>`Thrust Boosters`
-    <br>Increased speed and dexterity. Minor defense increase. Increase to strength.
+   <br><br>`Thrust Boosters`
+   <br>Increased speed and dexterity. Minor defense increase. Increase to strength.
 
-    <br><br>`Power Helmet`
-    <br>Major defense boost, protection from elements. Required for full power suit.
+   <br><br>`Power Helmet`
+   <br>Major defense boost, protection from elements. Required for full power suit.
 
-    <br><br>`Helmet Control Interface`
-    <br>Access to weather, *health values*, and time.
+   <br><br>`Helmet Control Interface`
+   <br>Access to weather, *health values*, and time.
   <br><br></blockquote>
   </details>
 
@@ -123,57 +123,58 @@
    <details>
     <summary> Melee Weapons </summary><blockquote>
 
-    XE-Steel Sword
-    <br>`sword`
-    <br>"*Hack, slash and sweep.*"
+   XE-Steel Sword
+   <br>`sword`
+   <br>"*Hack, slash and sweep.*"
 
-    <br><br>Rapid Assault Blade
-    <br>`katana`
-    <br>"*Quick strikes.*"
+   <br><br>Rapid Assault Blade
+   <br>`katana`
+   <br>"*Quick strikes.*"
 
-    <br><br>Zvaihanda
-    <br>`greatsword`
-    <br>"*Two handed, eviscerator*".
+   <br><br>Zvaihanda
+   <br>`greatsword`
+   <br>"*Two handed, eviscerator*".
 
-    <br><br>Veilhaus
-    <br>`spear`
-    <br>"*One handed, precise, rapid, puncture*"
+   <br><br>Veilhaus
+   <br>`spear`
+   <br>"*One handed, precise, rapid, puncture*"
 
-    <br><br>Aisohen
-    <br>`staff`
-    <br>"*Two handed, rapid, sweep, parry*"
+   <br><br>Aisohen
+   <br>`staff`
+   <br>"*Two handed, rapid, sweep, parry*"
 
-    <br><br>Apollon
-    <br>`hammer`  
-    <br>"*One handed, blunt, hammer, rapid*"
+   <br><br>Apollon
+   <br>`hammer`  
+   <br>"*One handed, blunt, hammer, rapid*"
 
-    <br>Ikokke
-    <br>`baton`
-    <br>"*One handed, Blunt, rapid, parry*"
+   <br>Ikokke
+   <br>`baton`
+   <br>"*One handed, Blunt, rapid, parry*"
 
-    <br><br>Kracken
-    <br>`mace`
-    <br>"*Two handed, sweep, hammer, spin*"
-    <br><br></blockquote>
+   <br><br>Kracken
+   <br>`mace`
+   <br>"*Two handed, sweep, hammer, spin*"
+   <br><br></blockquote>
   </details>
 
   <details>
-    <summary> Ranged weaponry </summary><blockquote>
+   <summary> Ranged weaponry </summary><blockquote>
 
-    Perforator
-    <br>`Bolt Driver` `Drilling`
-    <br>"*A bolt driver with increased capacity and faster travel speed.*"
+   Perforator
+   <br>`Bolt Driver` `Drilling`
+   <br>"*A bolt driver with increased capacity and faster travel speed.*"
 
-    <br><br>Photon Blaster
-    <br>`plasma gun`
-    <br>"*A high powered energy weapon that converts inert material into superheated matter.*"
-    <br></blockquote>
+   <br><br>Photon Blaster
+   <br>`plasma gun`
+   <br>"*A high powered energy weapon that converts inert material into superheated matter.*"
+   <br></blockquote>
   </details>
 
  ###### Tools
   <details>
 
-    <summary> Basic Tools</summary><blockquote>
+   <summary> Basic Tools</summary><blockquote>
+  
   Buzzcutter
   <br> `wood-cutting`, `wood-sawing`, `metal-cutting`, `metal-sawing`
   <br> "*A tool that utilized interchangeable blades to bridge the gap between metal and wood sawing.*"
