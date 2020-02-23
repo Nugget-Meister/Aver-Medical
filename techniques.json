@@ -7,7 +7,113 @@
     "min_melee": 0,
     "unarmed_allowed": true,
     "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"],
+    "messages": ["You hit %s", "<npcname> hits %s"]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_push",
+    "name": "Shove",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "melee_allowed": true,
+    "knockback_dist": 1,
+    "grab_break": true,
+    "mult_bonuses": [ [ "damage", "bash", 0.5 ], [ "damage", "cut", 0.0], [ "damage", "stab", 0.0] ],
+    "messages": [ "You shove %s away.", "<npcname> shoves %s away."]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_trip",
+    "name": "Trip",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "down_dur": 2,
+    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "cut", 0.0], [ "damage", "stab", 0.0] ],
+    "messages": ["You trip %s onto the ground", "<npcname> trips %s."]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_redirect",
+    "name": "Redirect Blows",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "block_counter": true,
+    "defensive": true,
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_brutal",
+    "name": "test move",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "crit_ok": true,
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_counter",
+    "name": "test move",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"]
+  },
+  {
+      "type": "technique",
+      "id": "tec_gigant_dodge",
+      "name": "test move",
+      "min_unarmed": 0,
+      "min_melee": 0,
+      "unarmed_allowed": true,
+      "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+      "messages": ["You hit %s", "<npcname> hits %s"]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_direct",
+    "name": "test move",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"]
   }
-
+  {
+    "type": "technique",
+    "id": "tec_gigant_eviscerate",
+    "name": "test move",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_flurry",
+    "name": "test move",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"]
+  },
+  {
+    "type": "technique",
+    "id": "tec_gigant_warp",
+    "name": "test move",
+    "min_unarmed": 0,
+    "min_melee": 0,
+    "unarmed_allowed": true,
+    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
+    "messages": ["You hit %s", "<npcname> hits %s"]
+  }
 ]
