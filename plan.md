@@ -15,9 +15,11 @@
    <br>Shove `melee 0`
    <br>Trip `melee 2`
    <br>Redirect Blows `melee 3`
+
    <br><br>Brutalizing Strike
    <br>Counter Strike
    <br>Dodge Kick
+
    <br><br>Direct Shot
    <br>Floor Evisceration
    <br>Flurry of Punches
@@ -30,10 +32,10 @@
   <details>
     <summary>Static Buffs</summary>
 
-<br>Gigantus - `melee 0`
+<br>Gigantus - `unarmed 1`
 <br> "*The world comes at you from every angle. You stand ready to intercept.*"
 
-<br><br>Kaes - `melee 5`
+<br><br>Kaes - `unarmed 5`
 <br> "*You make yourself scarce as enemies approach, their attacks whiffing wind.*"
 
 <br><br>
@@ -41,7 +43,7 @@
 
   <details>
    <summary>Action Buffs</summary>
-  
+
    <br>Ether Vais -`on hit`
    <br>Each hit is a hammer, molding the situation to you.
 
@@ -72,7 +74,7 @@
 
  <details>
    <summary> Armor </summary><blockquote>
-  
+
    Fibre Skin Inlay
    <br>`torso` `legs` `arms` `skin-level`
    <br>"*Mobility and dexterity increase.*"
@@ -174,7 +176,7 @@
   <details>
 
    <summary> Basic Tools</summary><blockquote>
-  
+
   Buzzcutter
   <br> `wood-cutting`, `wood-sawing`, `metal-cutting`, `metal-sawing`
   <br> "*A tool that utilized interchangeable blades to bridge the gap between metal and wood sawing.*"
@@ -193,8 +195,8 @@
 
 <details>
   <summary> Advanced Tools</summary><blockquote>
-  
-  <br>Matter Manipulator 
+
+  <br>Matter Manipulator
   <br>`everything`
   <br>"*An object fabled to be able to perform any task required of it.*"
 
