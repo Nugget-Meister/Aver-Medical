@@ -13,18 +13,37 @@
        "name": "Stance Gigantus",
        "description": "The world approaches, you stand ready to intercept.",
        "unarmed_allowed": true,
+       "melee_allowed": true,
        "bonus_blocks": 2
      },
      {
        "id": "gigant_static_2",
        "name": "Kaes",
        "description": "You make yourself scarce as enemies approach, their attacks whiffing wind",
-       "min_unarmed": 5,
-       "min_melee": 1,
-       "bonus_dodges": 2
+       "skill_requirements": [
+         {"name": "unarmed", "level": 5 },
+         {"name": "melee", "level": 1 },
+         {"name": "dodge", "level": 2 }
+       ],
+       "bonus_dodges": 1
      }
    ],
-   "onmove_buffs": [],
+   "onmove_buffs": [
+     {
+      "id":"gigant_action_flow",
+      "name": "Gigant Flow",
+      "description": "Reality weaves around you, attempting to nest you in its grand scheme. You refuse.",
+      "skill_requirements": [
+        {"name": "dodge", "level": 3 }
+      ],
+      "buff_duration": 2,
+      "max_stacks": 1,
+      "bonus_dodges": 1,
+      "flat_bonuses": [
+        ["armor", "electric", 1.0]
+      ]
+    }
+   ],
    "techniques": [ "tec_gigant_push", "tec_gigant_trip", "tec_gigant_redirect", "tec_gigant_brutal", "tec_gigant_counter", "tec_gigant_dodge", "tec_gigant_direct", "tec_gigant_eviscerate", "tec_gigant_flurry", "tec_gigant_warp" ],
    "weapons":[
      "avm_sword",
