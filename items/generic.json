@@ -163,7 +163,7 @@
     "price": 0,
     "material": [ "xesteel", "plastic" ],
     "weight": 2260,
-    "volume": 6,
+    "volume": 6
   },
   {
     "type": "GENERIC",
@@ -192,6 +192,6 @@
     "price": 0,
     "material": [ "xesteel", "plastic" ],
     "weight": 1000,
-    "volume": 1,
+    "volume": 1
   }
 ]
