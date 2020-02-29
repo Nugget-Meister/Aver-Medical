@@ -12,19 +12,19 @@
  <details>
    <summary>Techniques</summary>
 
-   <br>Shove `melee 0`
-   <br>Trip `melee 2`
-   <br>Redirect Blows `melee 3`
+   <br>Shove `unarmed 0`
+   <br>Trip `unarmed 1`
+   <br>Redirect Blows `unarmed 2`
 
-   <br><br>Brutalizing Strike
-   <br>Counter Strike
-   <br>Dodge Kick
+   <br><br>Brutalizing Strike `unarmed 2` `melee 1`
+   <br>Counter Strike `unarmed 3`
+   <br>Dodge Kick `unarmed 3` `dodge 2`
 
-   <br><br>Direct Shot
-   <br>Floor Evisceration
-   <br>Flurry of Punches
+   <br><br>Direct Shot `unarmed 3` `melee 3`
+   <br>Evisceration `unarmed 4` `melee 3`
+   <br>Flurry of Punches `unarmed 4`
 
-   <br><br>Warp Strike
+   <br><br>Warp Strike `unarmed 5`
 
 
   </details>
