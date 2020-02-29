@@ -1,0 +1,8 @@
+[
+  {
+    "id":"xesword",
+    "type":"MIGRATION",
+    "replace":"avm_sword"
+  }
+
+]
