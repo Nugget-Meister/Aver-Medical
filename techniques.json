@@ -6,114 +6,206 @@
     "min_unarmed": 0,
     "min_melee": 0,
     "unarmed_allowed": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
+    "mult_bonuses": [
+        [ "damage", "bash", 1.0 ],
+        [ "damage", "cut", 1.0 ],
+        [ "damage", "stab", 1.0 ] ],
+    "messages": [ "You hit %s", "<npcname> hits %s"]
   },
   {
     "type": "technique",
     "id": "tec_gigant_push",
     "name": "Shove",
-    "min_unarmed": 0,
-    "min_melee": 0,
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "knockback_dist": 1,
+    "knockback_dist": 2,
+    "stun_dur": 2,
     "grab_break": true,
-    "mult_bonuses": [ [ "damage", "bash", 0.5 ], [ "damage", "cut", 0.0], [ "damage", "stab", 0.0] ],
-    "messages": [ "You shove %s away.", "<npcname> shoves %s away."]
+    "movecost_mult": 0.1,
+    "mult_bonuses": [
+      [ "damage", "bash", 0.5 ],
+      [ "damage", "cut", 0.0 ],
+      [ "damage", "stab", 0.0 ] ],
+    "messages": [ "You shove the %s away.", "<npcname> shoves the %s away."]
   },
   {
     "type": "technique",
     "id": "tec_gigant_trip",
     "name": "Trip",
-    "min_unarmed": 0,
-    "min_melee": 0,
+    "skill_requirements": [
+      {"name": "unarmed", "level": 1 }
+    ],
     "unarmed_allowed": true,
     "down_dur": 2,
-    "mult_bonuses": [ [ "damage", "bash", 0.8 ], [ "damage", "cut", 0.0], [ "damage", "stab", 0.0] ],
-    "messages": ["You trip %s onto the ground", "<npcname> trips %s."]
+    "stun_dur": 2,
+    "movecost_mult": 0.4,
+    "mult_bonuses": [
+      [ "damage", "bash", 0.8 ],
+      [ "damage", "cut", 0.0 ],
+      [ "damage", "stab", 0.0 ]
+    ],
+    "messages": [ "You trip %s onto the ground", "<npcname> trips %s."]
   },
   {
     "type": "technique",
     "id": "tec_gigant_redirect",
     "name": "Redirect Blows",
-    "min_unarmed": 0,
-    "min_melee": 0,
+    "skill_requirements": [
+      {"name": "unarmed", "level": 2 }
+    ],
     "unarmed_allowed": true,
     "block_counter": true,
     "defensive": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
+    "stun_dur": 2,
+    "miss_recovery": true,
+    "grab_break": true,
+    "movecost_mult": 0.7,
+    "mult_bonuses": [
+      [ "damage", "bash", 1.0 ],
+      [ "damage", "stab", 1.0 ] ],
+    "messages": [ "You redirect the blow, hitting %s", "<npcname> redirects %s attack!"]
   },
   {
     "type": "technique",
     "id": "tec_gigant_brutal",
-    "name": "test move",
-    "min_unarmed": 0,
-    "min_melee": 0,
+    "name": "Brutalizing Strike",
+    "skill_requirements": [
+      {"name": "unarmed", "level": 2 },
+      {"name": "melee", "level": 1 }
+    ],
     "unarmed_allowed": true,
+    "melee_allowed": true,
     "crit_ok": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
+    "movecost_mult": 1.2,
+    "mult_bonuses": [
+      [ "damage", "bash", 2.5 ],
+      [ "damage", "cut", 1.5 ],
+      [ "damage", "stab", 1.7 ],
+      [ "arpen", "bash", 0.3 ],
+      [ "arpen", "cut", 0.1 ],
+      [ "arpen", "stab", 0.2 ] ],
+    "messages": [ "You brutalize the %s", "<npcname> brutalizes the %s"]
   },
   {
     "type": "technique",
     "id": "tec_gigant_counter",
-    "name": "test move",
-    "min_unarmed": 0,
-    "min_melee": 0,
-    "unarmed_allowed": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
+    "name": "Counter Hit",
+    "skill_requirements": [
+      {"name": "unarmed", "level": 3 },
+      {"name": "melee", "level": 1 }
+    ],
+    "unarmed_allowed": false,
+    "melee_allowed": true,
+    "block_counter": true,
+    "dodge_counter": true,
+
+    "mult_bonuses": [
+      [ "movecost", 0.0],
+      [ "damage", "bash", 1.1 ],
+      [ "damage", "cut", 0.8 ],
+      [ "damage", "stab", 1.2 ] ],
+    "messages": [ "You deftly parry the %s attack and strike back", "<npcname> parries and returns the %s favor"]
   },
   {
       "type": "technique",
       "id": "tec_gigant_dodge",
-      "name": "test move",
-      "min_unarmed": 0,
-      "min_melee": 0,
+      "name": "Dodge Kick",
+      "skill_requirements": [
+        {"name": "unarmed", "level": 3 },
+        {"name": "dodge", "level": 2 }
+      ],
       "unarmed_allowed": true,
-      "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-      "messages": ["You hit %s", "<npcname> hits %s"]
+      "unarmed_weapons_allowed": true,
+      "melee_allowed": false,
+      "defensive": true,
+      "dodge_counter": true,
+      "movecost_mult": 0.8,
+      "mult_bonuses": [
+        [ "damage", "bash", 1.3 ]],
+      "messages": [ "You swerve under the %s blow, and rise with a spinning kick", "<npcname> swerves and kicks the %s"]
   },
   {
     "type": "technique",
     "id": "tec_gigant_direct",
-    "name": "test move",
-    "min_unarmed": 0,
-    "min_melee": 0,
+    "name": "True Strike",
+    "skill_requirements": [
+      {"name": "unarmed", "level": 3 },
+      {"name": "melee", "level": 3 }
+    ],
+    "stun_dur": 2,
+    "miss_recovery": true,
     "unarmed_allowed": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
-  }
+    "melee_allowed": true,
+    "movecost_mult": 0.8,
+    "mult_bonuses": [
+      [ "damage", "bash", 1.2 ],
+      [ "damage", "cut", 1.2 ],
+      [ "damage", "stab", 1.2 ],
+      [ "arpen", "bash" , 0.7 ],
+      [ "arpen", "cut" , 0.4 ],
+      [ "arpen", "stab" , 0.7 ] ],
+    "messages": [ "The strike hits true, hitting %s", "<npcname> strikes %s true"]
+  },
   {
     "type": "technique",
     "id": "tec_gigant_eviscerate",
-    "name": "test move",
-    "min_unarmed": 0,
-    "min_melee": 0,
+    "name": "Evisceration",
+    "skill_requirements": [
+      {"name": "unarmed", "level": 4 },
+      {"name": "melee", "level": 3 }
+    ],
     "unarmed_allowed": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
+    "melee_allowed": true,
+    "crit_tec": true,
+    "stun_dur": 1,
+    "miss_recovery": false,
+    "movecost_mult": 1.4,
+    "mult_bonuses": [
+      [ "damage", "bash", 3.0 ],
+      [ "damage", "cut", 2.0 ],
+      [ "damage", "stab", 3.0 ],
+      [ "arpen", "bash" , 0.4 ],
+      [ "arpen", "cut" , 0.4 ],
+      [ "arpen", "stab" , 0.4 ] ],
+    "messages": [ "You plunge into the %s and tear away", "<npcname> tears away at the %s"]
   },
   {
     "type": "technique",
     "id": "tec_gigant_flurry",
-    "name": "test move",
-    "min_unarmed": 0,
-    "min_melee": 0,
+    "name": "Flurry",
+    "skill_requirements": [
+      {"name": "unarmed", "level": 4 },
+      {"name": "melee", "level": 4 }
+    ],
     "unarmed_allowed": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
+    "melee_allowed": true,
+    "movecost_mult": 0.5,
+    "mult_bonuses": [
+      [ "damage", "bash", 1.3 ],
+      [ "damage", "cut", 1.1 ],
+      [ "damage", "stab", 0.9 ] ],
+    "messages": [ "You hit %s with a flurry of blows", "<npcname> hits %s with a flurry of blows" ]
   },
   {
     "type": "technique",
     "id": "tec_gigant_warp",
-    "name": "test move",
-    "min_unarmed": 0,
-    "min_melee": 0,
+    "name": "Warp Strike",
+    "skill_requirements": [
+      {"name": "unarmed", "level": 5 },
+      {"name": "melee", "level": 3 },
+      {"name": "dodge", "level": 3 }
+    ],
     "unarmed_allowed": true,
-    "mult_bonuses": [ [ "damage", "bash", 1.0 ], [ "damage", "cut", 1.0], [ "damage", "stab", 1.0] ],
-    "messages": ["You hit %s", "<npcname> hits %s"]
+    "melee_allowed": true,
+    "knockback_dist": 3,
+    "knockback_follow": true,
+    "stun_dur": 2,
+    "down_dur": 3,
+    "movecost_mult": 1.0,
+    "mult_bonuses": [
+      [ "damage", "bash", 1.3 ],
+      [ "damage", "cut", 0.7 ],
+      [ "damage", "stab", 1.1 ] ],
+    "messages": [ "You force the %s back, and follow up in an instant", "<npcname> forces the %s back and follows through" ]
   }
 ]
