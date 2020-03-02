@@ -21,6 +21,7 @@
     "knockback_dist": 2,
     "stun_dur": 2,
     "grab_break": true,
+    "weighting": 1,
     "movecost_mult": 0.1,
     "mult_bonuses": [
       [ "damage", "bash", 0.5 ],
@@ -38,6 +39,7 @@
     "unarmed_allowed": true,
     "down_dur": 2,
     "stun_dur": 2,
+    "weighting": 1,
     "movecost_mult": 0.4,
     "mult_bonuses": [
       [ "damage", "bash", 0.8 ],
@@ -54,12 +56,12 @@
       {"name": "unarmed", "level": 2 }
     ],
     "unarmed_allowed": true,
+    "melee_allowed": true,
     "block_counter": true,
-    "defensive": true,
     "stun_dur": 2,
-    "miss_recovery": true,
     "grab_break": true,
-    "movecost_mult": 0.7,
+    "weighting": 2,
+    "movecost_mult": 0.1,
     "mult_bonuses": [
       [ "damage", "bash", 1.0 ],
       [ "damage", "stab", 1.0 ] ],
@@ -76,6 +78,7 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "crit_ok": true,
+    "weighting": 3,
     "movecost_mult": 1.2,
     "mult_bonuses": [
       [ "damage", "bash", 2.5 ],
@@ -84,27 +87,25 @@
       [ "arpen", "bash", 0.3 ],
       [ "arpen", "cut", 0.1 ],
       [ "arpen", "stab", 0.2 ] ],
-    "messages": [ "You brutalize the %s", "<npcname> brutalizes the %s"]
+    "messages": [ "You brutalize %s", "<npcname> brutalizes %s"]
   },
   {
     "type": "technique",
     "id": "tec_gigant_counter",
     "name": "Counter Hit",
     "skill_requirements": [
-      {"name": "unarmed", "level": 3 },
+      {"name": "unarmed", "level": 1 },
       {"name": "melee", "level": 1 }
     ],
-    "unarmed_allowed": false,
-    "melee_allowed": true,
-    "block_counter": true,
-    "dodge_counter": true,
-
+    "unarmed_allowed": true,
+    "block_counter":true,
+    "weighting": 3,
     "mult_bonuses": [
-      [ "movecost", 0.0],
+      [ "movecost", 0.0 ],
       [ "damage", "bash", 1.1 ],
       [ "damage", "cut", 0.8 ],
       [ "damage", "stab", 1.2 ] ],
-    "messages": [ "You deftly parry the %s attack and strike back", "<npcname> parries and returns the %s favor"]
+    "messages": [ "You deftly parry %s attack and strike back", "<npcname> parries and returns %s favor"]
   },
   {
       "type": "technique",
@@ -117,12 +118,14 @@
       "unarmed_allowed": true,
       "unarmed_weapons_allowed": true,
       "melee_allowed": false,
-      "defensive": true,
       "dodge_counter": true,
       "movecost_mult": 0.8,
+      "weighting": 3,
       "mult_bonuses": [
-        [ "damage", "bash", 1.3 ]],
-      "messages": [ "You swerve under the %s blow, and rise with a spinning kick", "<npcname> swerves and kicks the %s"]
+        [ "damage", "bash", 1.3 ],
+        [ "damage", "cut", 0.2 ],
+        [ "damage", "stab", 0.2 ]],
+      "messages": [ "You swerve under %s blow, and rise with a spinning kick", "<npcname> swerves and kicks the %s"]
   },
   {
     "type": "technique",
@@ -133,9 +136,9 @@
       {"name": "melee", "level": 3 }
     ],
     "stun_dur": 2,
-    "miss_recovery": true,
     "unarmed_allowed": true,
     "melee_allowed": true,
+    "weighting": 4,
     "movecost_mult": 0.8,
     "mult_bonuses": [
       [ "damage", "bash", 1.2 ],
@@ -144,7 +147,7 @@
       [ "arpen", "bash" , 0.7 ],
       [ "arpen", "cut" , 0.4 ],
       [ "arpen", "stab" , 0.7 ] ],
-    "messages": [ "The strike hits true, hitting %s", "<npcname> strikes %s true"]
+    "messages": [ "You strike %s true", "<npcname> strikes %s true"]
   },
   {
     "type": "technique",
@@ -159,6 +162,7 @@
     "crit_tec": true,
     "stun_dur": 1,
     "miss_recovery": false,
+    "weighting": 4,
     "movecost_mult": 1.4,
     "mult_bonuses": [
       [ "damage", "bash", 3.0 ],
@@ -167,7 +171,7 @@
       [ "arpen", "bash" , 0.4 ],
       [ "arpen", "cut" , 0.4 ],
       [ "arpen", "stab" , 0.4 ] ],
-    "messages": [ "You plunge into the %s and tear away", "<npcname> tears away at the %s"]
+    "messages": [ "You plunge into %s and tear away", "<npcname> tears away at %s"]
   },
   {
     "type": "technique",
@@ -179,7 +183,8 @@
     ],
     "unarmed_allowed": true,
     "melee_allowed": true,
-    "movecost_mult": 0.5,
+    "weighting": 10,
+    "movecost_mult": 0.3,
     "mult_bonuses": [
       [ "damage", "bash", 1.3 ],
       [ "damage", "cut", 1.1 ],
@@ -201,11 +206,12 @@
     "knockback_follow": true,
     "stun_dur": 2,
     "down_dur": 3,
+    "weighting": 5,
     "movecost_mult": 1.0,
     "mult_bonuses": [
       [ "damage", "bash", 1.3 ],
       [ "damage", "cut", 0.7 ],
       [ "damage", "stab", 1.1 ] ],
-    "messages": [ "You force the %s back, and follow up in an instant", "<npcname> forces the %s back and follows through" ]
+    "messages": [ "You force %s back, and follow up in an instant", "<npcname> forces the %s back and follows through" ]
   }
 ]
