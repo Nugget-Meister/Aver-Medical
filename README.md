@@ -19,8 +19,8 @@ Last PR: v0.0.1.51   03-Mar-20
  * New Materials -> Future research into metal binding on the molecular level has resulted in the creation of XE-Steel, a tougher lightweight material to replace common metals.
 
 ## In Progress
-> Item recipes
-> Martial Arts
+> * Item recipes
+> * Martial Arts
 
 ## Planned
 > We can only view the past as though we are looking forward.
