@@ -185,13 +185,26 @@
     "id": "avm_plate_small",
     "symbol": ".",
     "color": "light_gray",
-    "name": "a",
-    "name_plural": "small reactive plate",
+    "name": "small reactive plate",
+    "name_plural": "small reactive plates",
     "category": "other",
     "description": "generic item description",
     "price": 0,
     "material": [ "xesteel", "plastic" ],
     "weight": 1000,
     "volume": 1
-  }
+  },
+  {"type": "GENERIC",
+  "id": "avm_bar",
+  "symbol": ",",
+  "color": "light_gray",
+  "name": "bar XE-037-A",
+  "name_plural": "bars of XE-037-A",
+  "category": "other",
+  "description": "generic item description",
+  "price": 0,
+  "material": [ "xesteel", "plastic" ],
+  "weight": 2260,
+  "volume": 1
+}
 ]
