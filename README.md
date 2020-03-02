@@ -8,7 +8,7 @@ I wouldn't really call it an expansion just yet. It might be your cup of tea. It
 
 ## Season 1: Subprime Medical Practice
 
-Last PR: v0.0.1.30   16-Feb-20
+Last PR: v0.0.1.51   03-Mar-20
 
 
 
@@ -19,7 +19,8 @@ Last PR: v0.0.1.30   16-Feb-20
  * New Materials -> Future research into metal binding on the molecular level has resulted in the creation of XE-Steel, a tougher lightweight material to replace common metals.
 
 ## In Progress
-
+> Item recipes
+> Martial Arts
 
 ## Planned
 > We can only view the past as though we are looking forward.
