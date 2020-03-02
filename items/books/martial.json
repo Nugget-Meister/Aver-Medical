@@ -1,0 +1,18 @@
+[
+  {
+    "id":"manual_gigant",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "name": "Gigas Mordrum",
+    "name_plural": "Gigas Mordrum",
+    "description": "A leatherbound book with several graphical instructions on the way of the gods."
+  },
+  {
+    "id":"manual_mastery",
+    "copy-from": "book_martial",
+    "type": "GENERIC",
+    "name": "Weapon Mastery",
+    "name_plural": "Weapon Mastery",
+    "description": "A collection of notes on the practical application of weapons."
+  }
+]
