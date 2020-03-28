@@ -52,7 +52,7 @@
   {
     "id": "avm_blade",
     "type": "TOOL",
-    "name": "Rapid Assault Blade" ,
+    "name": "AVM Rapid Assault Blade" ,
     "category": "weapons",
     "description": "A more refined version of the XE-Sword, The Rapid Assault Blade boasts an ultra-light, razor sharp blade no longer than the length of your forearm. It's lightweight construction enables it to sail through the wind with ease, more so than its modern counterparts.",
     "weight": 680,
@@ -71,7 +71,7 @@
   {
     "id": "avm_greatsword",
     "type": "TOOL",
-    "name": "Zvaihanda" ,
+    "name": "AVM Zvaihanda" ,
     "category": "weapons",
     "description": "zweihander but chunky, and light",
     "weight": 1814,
@@ -90,7 +90,7 @@
   {
     "id": "avm_spear",
     "type": "TOOL",
-    "name": "Veilhaus" ,
+    "name": "AVM Veilhaus" ,
     "category": "weapons",
     "description": "stabby spear",
     "weight": 3311,
@@ -109,7 +109,7 @@
   {
     "id": "avm_staff",
     "type": "TOOL",
-    "name": "Aisohen" ,
+    "name": "AVM Aisohen" ,
     "category": "weapons",
     "description": "swifty staff",
     "weight": 2040,
@@ -128,7 +128,7 @@
   {
     "id": "avm_hammer",
     "type": "TOOL",
-    "name": "Apollon" ,
+    "name": "AVM Apollon" ,
     "category": "weapons",
     "description": "this boy CHUNK, it dig, and it SPONK.",
     "weight": 5443,
@@ -147,7 +147,7 @@
   {
     "id": "avm_baton",
     "type": "TOOL",
-    "name": "Ikokke" ,
+    "name": "AVM Ikokke" ,
     "category": "weapons",
     "description": "smack dab, smonk",
     "weight": 1360,
@@ -166,7 +166,7 @@
   {
     "id": "avm_mace",
     "type": "TOOL",
-    "name": "Kracken" ,
+    "name": "AVM Kracken" ,
     "category": "weapons",
     "description": "DEMOLISH with condensed spOOP. it DIG, it chop, it sMONK them all!",
     "weight": 5020,
