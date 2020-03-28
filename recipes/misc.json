@@ -1,0 +1,19 @@
+[
+  {
+    "result": "liquid_caustic",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_CHEM_CHEMICALS",
+    "skill_used": "fabrication",
+    "difficulty": 2,
+    "time": "60 m",
+    "reversible": false,
+    "autolearn": true,
+    "qualities": [
+      { "id": "HAMMER", "level": 2 }
+    ],
+    "components": [
+      [ [ "fertilizer", 1 ] ]
+    ]
+  }
+]
