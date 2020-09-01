@@ -1,0 +1,34 @@
+[
+  {
+    "type": "item_group",
+    "id": "avm_large",
+    "//": "Large size subset of AVM gear.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "avm_greatsword", "prob": 100 },
+      { "item": "avm_spear", "prob": 100 },
+      { "item": "avm_hammer", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "avm_medium",
+    "//": "Medium size subset of AVM gear.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "avm_sword", "prob": 100 },
+      { "item": "avm_staff", "prob": 100 },
+      { "item": "avm_mace", "prob": 100 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "avm_small",
+    "//": "Small size subset of AVM gear.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "avm_blade", "prob": 100 },
+      { "item": "avm_baton", "prob": 100 }
+    ]
+  }
+]
