@@ -41,7 +41,7 @@
       "max_stacks": 1,
       "bonus_dodges": 1,
       "flat_bonuses": [
-        [ "armor", "electric", 1.0]
+        [ "armor", "electric", 1.0 ]
       ]
     }
    ],
@@ -160,8 +160,6 @@
      "bwirebat",
      "homewrecker",
      "bowling_axe",
-     "elc_bld",
-     "elc_blds",
      "baton-extended",
      "PR24-extended"
       ]
@@ -171,7 +169,7 @@
    "type": "martial_art",
    "name": "Weapon Mastery",
    "description": "No tool is beyond your reach.",
-   "initiate": [ "You assume a generic combat posture.", "%s assumes posture."],
+   "initiate": [ "You become the battlemaster.", "%s assumes posture."],
    "arm_block": 1,
    "leg_block": 1,
    "static_buffs": [
@@ -298,16 +296,8 @@
      "bwirebat",
      "homewrecker",
      "bowling_axe",
-     "elc_bld",
-     "elc_blds",
      "baton-extended",
-     "PR24-extended",
-     "bio_claws_weapon",
-     "bio_blade_weapon",
-     "bio_sword_weapon",
-     "unbio_bladed_weapon",
-     "unbio_sword_weapon",
-     "unbio_claws_weapon"
+     "PR24-extended"
     ]
   },
   {

@@ -105,7 +105,7 @@
       [ "damage", "bash", 1.1 ],
       [ "damage", "cut", 0.8 ],
       [ "damage", "stab", 1.2 ] ],
-    "messages": [ "You deftly parry %s attack and strike back", "<npcname> parries and returns %s favor"]
+    "messages": [ "You deftly parry %s attack and strike back", "<npcname> parries and strikes %s "]
   },
   {
       "type": "technique",
@@ -162,7 +162,7 @@
     "crit_tec": true,
     "stun_dur": 1,
     "miss_recovery": false,
-    "weighting": 4,
+    "weighting": 7,
     "movecost_mult": 1.4,
     "mult_bonuses": [
       [ "damage", "bash", 3.0 ],
@@ -206,7 +206,7 @@
     "knockback_follow": true,
     "stun_dur": 2,
     "down_dur": 3,
-    "weighting": 5,
+    "weighting": 8,
     "movecost_mult": 1.0,
     "mult_bonuses": [
       [ "damage", "bash", 1.3 ],
