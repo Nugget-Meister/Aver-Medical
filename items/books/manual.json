@@ -1,0 +1,28 @@
+[
+  {
+    "abstract": "book_avm_tpl",
+    "type": "BOOK",
+    "name": "abstract avm template",
+    "description": "template for avm manual",
+    "weight": "1814 g",
+    "manual": "1500 ml",
+    "price": 200000,
+    "price_postapoc": 500,
+    "material": [ "paper", "cardbaord" ],
+    "symbol": "?",
+    "looks_like": "story_book",
+    "color": "blue",
+    "intelligence": 10,
+    "skill": "mechanics",
+    "time": "30 m",
+  },
+  {
+    "id": "manual_avm",
+    "type": "BOOK",
+    "name": { "str": "Aver Medical Operation Manual", "str_pl": "copies of Aver Medical Operation Manual" },
+    "description": "This ring bound binder contains a comprehensive array of design specifications for a variety of experimental Aver Medical armor, weapons and equipment.",
+    "max_level": 1,
+    "copy-from": "book_avm_tpl"
+  }
+
+]
