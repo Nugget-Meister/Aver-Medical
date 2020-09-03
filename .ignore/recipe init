@@ -3,20 +3,41 @@
 Materials
 
   caustic liquid
+    =skills
+      - Chemistry 3
+      -
+    =proficiency
+      - 
     =tools
+      - chemistry set (200)
+      - containing 3
+      - chemical making 2
+      - boiling 2
+      - pot
     =items
       - bleach
       - acid
+      - butchery refuse
+    =time
+      2 hours
 
   binding powder
     =tools
-      - [containing] [1]
+      - chemistry set (100)
+      - containing 2
+      - distilling 2
+      - boiling 2
       - mortar and pestle -OR- quern
+      - pot
+      - chemical making 1
     =items
-      - bone meal
+      - bone meal or chitin piece
       - steel
       - blob
       - bundle_rag
+      - plastic chunk
+    =time
+      1 hour
 
   programmable system mold
     =tools
@@ -36,10 +57,12 @@ Materials
       - 1 LCD Screen
       - 4 RAM
       - 1 Micro Motor
+    =time
+      8 hours
 
   avm calibration software
     =tool
-        Computer (150) charges
+        Computer (350) charges
     =items
       - 1 RAM
       - 1 USB drive

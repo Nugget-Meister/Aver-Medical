@@ -1,0 +1,27 @@
+[
+  {
+    "type": "proficiency",
+    "id": "prof_chemistry_basic",
+    "name": { "str": "Basic Chemistry" },
+    "description": "Basic knowledge in understanding chemical processes and reactions to turn one thing into the next.",
+    "can_learn": true,
+    "time_to_learn": "10 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_chemistry_advanced",
+    "name": { "str": "Advanced Chemistry" },
+    "description": "A deeper understanding of the chemical reactions and their potential, and practical, use.",
+    "can_learn": true,
+    "time_to_learn": "24 h",
+    "required_proficiencies": "prof_chemistry_basic"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_programming_basic",
+    "name": { "str": "Basic Programming" },
+    "description": "The ability to code scripts that computers can interpret for use",
+    "can_learn": true,
+    "time_to_learn": "10 h"
+  }
+]
