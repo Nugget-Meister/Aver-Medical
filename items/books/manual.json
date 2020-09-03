@@ -23,6 +23,10 @@
     "description": "This ring bound binder contains a comprehensive array of design specifications for a variety of experimental Aver Medical armor, weapons and equipment.",
     "max_level": 1,
     "copy-from": "book_avm_tpl"
+  },
+  {
+    "id": "manual_avm_adv",
+    "type": "BOOK"
   }
 
 ]
