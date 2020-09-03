@@ -5,14 +5,20 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
+    "skills_required": [ "fabrication", 8 ],
+    "proficiencies": [ {"proficiency": "prof_bladesmith"}, {"proficiency": "prof_blacksmithing"} ],
     "difficulty": 0,
     "time": "180 m",
-    "book_learn": [ [ "manual_avm", 1 ] ],
+    "book_learn": [ [ "manual_avm", 2 ], [ "manual_avm_adv", 1 ] ],
     "qualities": [
       { "id": "HAMMER", "level": 2 }
     ],
     "components": [
-      [  [ "avm_bar", 1 ] ]
+      [ [ "avm_lump", 1 ], [ "avm_chunk", 2 ] ],
+      [ [ "avm_plate_medium", 2 ] ],
+      [ [ "avm_plate_small", 1 ] ],
+      [ [ "rag", 2 ], [ "leather", 2 ] ],
+      [ [ "steel_chunk", 2 ], ["scrap_metal", 8 ] ]
     ]
   }
 ]
