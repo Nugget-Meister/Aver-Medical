@@ -5,7 +5,7 @@
     "name": "abstract avm template",
     "description": "template for avm manual",
     "weight": "1814 g",
-    "manual": "1500 ml",
+    "volume": "1500 ml",
     "price": 200000,
     "price_postapoc": 500,
     "material": [ "paper", "cardbaord" ],
@@ -26,7 +26,13 @@
   },
   {
     "id": "manual_avm_adv",
-    "type": "BOOK"
+    "type": "BOOK",
+    "name": { "str": "Aver Medical Design Manual", "str_pl": "copies of an Aver Medical Design Manual" },
+    "description": "This slim packet contains multiple experimental designs for XE-Steel reinforced tools. If you had the proper equipment, you could probably replicate these given time and skill.",
+    "max_level": 1,
+    "copy-from": "book_avm_tpl",
+    "volume": "1000ml",
+    "weight": "1000 g"
   }
 
 ]
