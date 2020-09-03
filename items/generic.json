@@ -167,10 +167,10 @@
   },
   {
     "type": "GENERIC",
-    "id": "avm_plate_narrow",
+    "id": "avm_plate_medium",
     "symbol": "|",
     "color": "light_gray",
-    "name": "narrow reactive plate",
+    "name": "medium reactive plate",
     "name_plural": "narrow reactive plates",
     "category": "other",
     "description": "generic item description",
@@ -194,17 +194,46 @@
     "weight": 1000,
     "volume": 1
   },
-  {"type": "GENERIC",
-  "id": "avm_bar",
+  {
+  "type": "GENERIC",
+  "id": "avm_lump",
   "symbol": ",",
   "color": "light_gray",
-  "name": "bar XE-037-A",
-  "name_plural": "bars of XE-037-A",
+  "name": "lump of XE-037-A",
+  "name_plural": "lumps of XE-037-A",
   "category": "other",
   "description": "generic item description",
   "price": 0,
   "material": [ "xesteel", "plastic" ],
   "weight": 2260,
+  "volume": 4
+},
+{
+  "type": "GENERIC",
+  "id": "avm_chunk",
+  "symbol": ",",
+  "color": "light_gray",
+  "name": "chunk of XE-037-A",
+  "name_plural": "chunks of XE-037-A",
+  "category": "other",
+  "description": "generic item description",
+  "price": 0,
+  "material": [ "xesteel", "plastic" ],
+  "weight": 452,
+  "volume": 2
+},
+{
+  "type": "GENERIC",
+  "id": "avm_scrap",
+  "symbol": ",",
+  "color": "light_gray",
+  "name": "XE-037-A scrap",
+  "name_plural": "pieces of XE-037-A scrap",
+  "category": "other",
+  "description": "generic item description",
+  "price": 0,
+  "material": [ "xesteel", "plastic" ],
+  "weight": 91,
   "volume": 1
 }
 ]

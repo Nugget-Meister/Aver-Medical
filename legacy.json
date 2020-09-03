@@ -3,6 +3,11 @@
     "id":"xesword",
     "type":"MIGRATION",
     "replace":"avm_sword"
+  },
+  {
+    "id":"avm_lump",
+    "type":"MIGRATION",
+    "replace":"avm_bar"
   }
 
 ]
