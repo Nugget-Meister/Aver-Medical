@@ -5,9 +5,9 @@ Materials
   caustic liquid
     =skills
       - Chemistry 3
-      -
+      - cooking 1
     =proficiency
-      - 
+      - basic chemistry
     =tools
       - chemistry set (200)
       - containing 3
@@ -22,6 +22,11 @@ Materials
       2 hours
 
   binding powder
+    =skills
+      - Chemistry 1
+      - Cooking 1
+    =proficiencies
+      - basic chemistry
     =tools
       - chemistry set (100)
       - containing 2
@@ -40,6 +45,12 @@ Materials
       1 hour
 
   programmable system mold
+    =proficiency
+      - programming
+    =skills
+      - Electronics 8
+      - mechanics 5
+      - chemistry 3
     =tools
       - toolbox or integrated toolset
       - soldering iron (400)
@@ -47,11 +58,12 @@ Materials
     =items
       - 2 Processors
       - Master Control Unit
-      - 3 plastic chunks
       - 4 medium circuit plates
       - 2 small circuit plates
       - 2 large circuit plates
-      - 2 lumps of steel -OR- 10 chunks of steel -OR- 50 scrap metal
+      - 2 lumps of steel -OR- 10 chunks of steel -OR- 50      scrap metal
+      - 4 blob globs
+      - 8 plastic chunks
       - 1 amplifier circuit
       - 3 electronic scrap
       - 1 LCD Screen
