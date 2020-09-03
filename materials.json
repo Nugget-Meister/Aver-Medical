@@ -11,6 +11,7 @@
     "cut_resist": 20,
     "acid_resist": 8,
     "fire_resist": 5,
+    "bullet_resist": 10,
     "elec_resist": 1,
     "chip_resist": 50,
     "repaired_with": "scrap",
