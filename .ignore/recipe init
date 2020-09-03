@@ -3,27 +3,27 @@
 Materials
 
   caustic liquid
-    tools
-    items
+    =tools
+    =items
       - bleach
       - acid
 
   binding powder
-    tools
+    =tools
       - [containing] [1]
       - mortar and pestle -OR- quern
-    items
+    =items
       - bone meal
       - steel
       - blob
       - bundle_rag
 
   programmable system mold
-    tools
+    =tools
       - toolbox or integrated toolset
       - soldering iron (400)
       - Laptop (100)
-    items
+    =items
       - 2 Processors
       - Master Control Unit
       - 3 plastic chunks
@@ -38,9 +38,9 @@ Materials
       - 1 Micro Motor
 
   avm calibration software
-    tool
+    =tool
         Computer (150) charges
-    items
+    =items
       - 1 RAM
       - 1 USB drive
       - 1 AVM plans
@@ -48,18 +48,28 @@ Materials
   small control unit
   medium control unit
   master control unit
+
   small circuit plate
   medium circuit plate
   wide circuit plate
 
   narrow reactive plate
   small reactive plate
-  avm bar
+  large reactive plate
 
+  lump of xe-steel
+  chunk of xe-steel
+  xe-steel scrap
 
 Tool
 
   AVM Toolset
+  STND Buzzcutter
+  STND Incisor
+  STND Excavator
+  ADV Caloric Condenser
+  ADV Sensory Duller
+  ADV Matter Manipulator
 
 
 Weapon
@@ -72,6 +82,23 @@ Weapon
   AVM Apollon
   AVM Ikkoke
   AVM Kracken
+
+Ranged
+  STND Perforator
+  ADV Photon Blaster
+
+
+Clothes
+  STND Fiber Skin Inlay
+  STND Chestplate
+  STND TR Vest
+  STND TR Gauntlets
+  STND TR Greaves
+  STND Motorized Gloves
+  ADV Thrust Boosters
+  ADV Power Helmet
+  ADV Helmet Control Interface
+
 
 Comestibles
 
