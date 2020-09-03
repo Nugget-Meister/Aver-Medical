@@ -39,10 +39,7 @@
       ],
       "buff_duration": 2,
       "max_stacks": 1,
-      "bonus_dodges": 1,
-      "flat_bonuses": [
-        [ "armor", "electric", 1.0 ]
-      ]
+      "bonus_dodges": 1
     }
    ],
    "techniques": [ "tec_gigant_push", "tec_gigant_trip", "tec_gigant_redirect", "tec_gigant_brutal", "tec_gigant_counter", "tec_gigant_dodge", "tec_gigant_direct", "tec_gigant_eviscerate", "tec_gigant_flurry", "tec_gigant_warp" ],
