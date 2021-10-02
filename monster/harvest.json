@@ -1,0 +1,11 @@
+[
+    {
+        "id": "gigant_small",
+        "type": "harvest",
+        "//": "entry for small gigant creatures",
+        "entries": [
+            {"drop": "meat_tainted", "type": "flesh", "mass_ratio": 0.1},
+            {"drop": "meat_scrap", "type":"flesh", "mass_ratio": 0.01}
+        ]
+    }
+]

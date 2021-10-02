@@ -20,6 +20,7 @@
     "melee_allowed": true,
     "knockback_dist": 2,
     "stun_dur": 2,
+    "down_dur": 1,
     "grab_break": true,
     "weighting": 1,
     "movecost_mult": 0.1,
@@ -43,8 +44,8 @@
     "movecost_mult": 0.4,
     "mult_bonuses": [
       [ "damage", "bash", 0.8 ],
-      [ "damage", "cut", 0.0 ],
-      [ "damage", "stab", 0.0 ]
+      [ "damage", "cut", 0.2 ],
+      [ "damage", "stab", 0.2 ]
     ],
     "messages": [ "You trip %s onto the ground", "<npcname> trips %s."]
   },
@@ -58,6 +59,7 @@
     "unarmed_allowed": true,
     "melee_allowed": true,
     "block_counter": true,
+    "dodge_counter":true,
     "stun_dur": 2,
     "grab_break": true,
     "weighting": 2,
@@ -171,7 +173,7 @@
       [ "arpen", "bash" , 0.4 ],
       [ "arpen", "cut" , 0.4 ],
       [ "arpen", "stab" , 0.4 ] ],
-    "messages": [ "You plunge into %s and tear away", "<npcname> tears away at %s"]
+    "messages": [ "You tear into %s", "<npcname> tears away at %s"]
   },
   {
     "type": "technique",
@@ -207,7 +209,7 @@
     "stun_dur": 2,
     "down_dur": 3,
     "weighting": 8,
-    "movecost_mult": 1.0,
+    "movecost_mult": 0.5,
     "mult_bonuses": [
       [ "damage", "bash", 1.3 ],
       [ "damage", "cut", 0.7 ],

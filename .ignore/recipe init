@@ -73,6 +73,11 @@ Materials
       8 hours
 
   avm calibration software
+    =time
+      - 1 Day
+    =proficiency
+      - Basic Programming
+      - S
     =tool
         Computer (350) charges
     =items
@@ -81,6 +86,8 @@ Materials
       - 1 AVM plans
 
   small control unit
+    =tool
+        Computer (100) charges
   medium control unit
   master control unit
 

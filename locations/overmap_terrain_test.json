@@ -1,0 +1,12 @@
+[
+  {
+    "type": "overmap_terrain",
+    "id": "test_house",
+    "name": "test house",
+    "sym": "^",
+    "color": "dark_gray",
+    "see_cost": 5,
+    "mondensity": 2,
+    "flags": [ "SIDEWALK" ]
+  }
+]

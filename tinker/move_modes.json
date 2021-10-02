@@ -1,0 +1,24 @@
+[
+    {
+        "type": "movement_mode",
+        "id": "sprint",
+        "character": "r",
+        "panel_char": "R",
+        "name": "sprint",
+        "panel_color": "red",
+        "symbol_color": "red",
+        "exertion_level": "EXTRA_EXERCISE",
+        "change_good_none": "You burst into a sprint.",
+        "change_good_animal": "You spur your steed into a furious gallop.",
+        "change_good_mech": "You clock your mech's leg servos beyond their settings.",
+        "change_bad_none": "You're too tired to sprint.",
+        "change_bad_animal": "Your steed is too tired to go faster.",
+        "change_bad_mech": "Your mech's leg servos are unable to sustain a sprint.",
+        "move_type": "running",
+        "stop_hauling": true,
+        "sound_multiplier": 1.8,
+        "move_speed_multiplier": 2.8,
+        "stamina_multiplier": 14.0,
+        "swim_speed_mod": -90  
+    }
+]

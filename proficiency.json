@@ -14,7 +14,7 @@
     "description": "A deeper understanding of the chemical reactions and their potential, and practical, use.",
     "can_learn": true,
     "time_to_learn": "24 h",
-    "required_proficiencies": "prof_chemistry_basic"
+    "required_proficiencies": [ "prof_chemistry_basic" ]
   },
   {
     "type": "proficiency",

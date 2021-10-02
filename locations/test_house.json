@@ -1,0 +1,49 @@
+[
+    {
+      "type": "mapgen",
+      "method": "json",
+      "weight": 100,
+      "om_terrain": [ "test_house" ],
+      "object": {
+        "fill_ter": "t_floor",
+        "rows": [
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "     |----+-+----|      ",
+          "     |...........|      ",
+          "     +.....6.....|      ",
+          "     |.....a.....|      ",
+          "     +...........|      ",
+          "     |...........|      ",
+          "     |----+-+----|      ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        ",
+          "                        "
+        ],
+        "palettes": [ "test_house" ],
+        "items": {
+          "a": { "item": "avm_large", "chance": 20, "repeat": [ 0, 1 ] }
+         },
+        "computers": {
+          "6": {
+            "name": "testing computer",
+            "options": [
+              { "name": "do the thing", "action": "intercom", "security": 0 }
+            ]
+          }
+        }
+      }
+    }
+]
